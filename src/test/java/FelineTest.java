@@ -4,14 +4,14 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 public class FelineTest {
-    Feline feline;
+
     @Test
     public void testFelineGetFamily(){
         Feline feline = new Feline();
         String actualGetFamily = feline.getFamily();
         String expectedGetFamily = "Кошачьи";
         assertEquals("Результат не соответствует семье - Кошачьи", expectedGetFamily, actualGetFamily);
-        System.out.println(feline.getFamily());
+
     }
     @Test
     public void testFelineGetKittens(){
