@@ -1,5 +1,4 @@
 package com.example;
-
 import java.util.List;
 
 public class Animal {
@@ -17,4 +16,5 @@ public class Animal {
     public String getFamily() {
         return "Существует несколько семейств: заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи";
     }
+
 }
